@@ -11,7 +11,7 @@ $container = $app->getContainer();
 $container['db'] = function () {
     return DriverManager::getConnection([
         'driver' => 'pdo_mysql',
-        'host' => 'localhost',
+        'host' => '192.168.100.123',
         'dbname' => 'warehouse',
         'user' => 'root',
         'password' => 'root',

@@ -8,8 +8,9 @@
     "symfony/browser-kit": "^3.3"
   },
   "autoload": {
-    "psr-4": {
-      "App\\": "src"
-    }
+    "psr-4": { "App\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "App\\Tests\\": "tests/" }
   }
 }
